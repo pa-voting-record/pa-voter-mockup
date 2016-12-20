@@ -41,8 +41,6 @@
 
   //Article Event listener
    document.body.addEventListener("keypress", e => {
-      console.log("It's Firing")
-      console.log(document.app.article_state)
       switch(e.charCode) {
         case 13:
           document.app.article_state++
